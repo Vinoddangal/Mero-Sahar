@@ -1,0 +1,96 @@
+.artical-contain
+{
+	background-image: url("../image/Chalkboard-Background.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+.location-contain
+{
+	background-image: url("../image/2974723-world-map-map-dark-continents___mixed-wallpapers.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+
+.hotel-reg-contain
+{
+	margin-top: 40px;
+}
+
+.main-form label
+{
+	color: white;
+}
+
+.main-form input[type=file]
+{
+	color: white;
+}
+.main-form
+{
+	margin: auto;
+	width: 500px;
+	padding: 20px 20px 20px 20px;
+
+	background-color: #f2f2f200;
+}
+
+.main-form h2, .hotel-form h2
+{
+	text-align: center;
+	color: #0a24a6;
+}
+
+.main-form h2 .sub-head
+{
+	color: #007bff;
+}
+
+.main-form #articalimg
+{
+	margin-left: 20px;
+	height: 155px;
+}
+
+.hotel-form #articalimg
+{
+	height: 400px;
+	
+
+}
+.hotel-form .right-conten
+{
+	margin-top: 30px;
+	float: right;
+	position: inline-block;
+}
+
+.hotel-form .left-conten
+{
+	position: fixed;
+}
+
+.hotel-form .main-conten
+{
+	margin-top: 50px;
+     
+}
+
+.hotel-form .sub-btn
+{
+	float: right;
+	width: 30%;
+}
+
+.hotel-form
+{
+	margin: auto;
+	width: 85%;
+	padding: 20px 20px 20px 20px;
+	background-color: #f2f2f200;
+            margin-top: 100px;
+}

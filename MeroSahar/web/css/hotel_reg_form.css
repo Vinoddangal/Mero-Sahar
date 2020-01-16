@@ -1,0 +1,72 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+h1{
+	text-align: center;
+}
+body{
+  position: relative;
+  background-color:#fff;
+}
+.main-container{
+  position: relative;
+  padding: 50px;
+  display: block;
+  box-sizing: border-box;
+}
+.content-details{
+  float: left;
+  width: 45%;
+}
+
+.content-details input[type=text], select {
+  width: 100%;
+  padding: 12px 20px 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:none;
+  border-bottom: 1px black;
+}
+
+.content-details input[type=submit] {
+  width: 100%;
+  background-color: #0078d7;
+  color: white;
+  padding: 12px 20px 20px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.content-details input.star{
+	display: none;
+}
+
+.content-details label.star{
+  float: right;
+	padding: 5px;
+	font-size: 35px;
+	color: #444;
+  transform: translate(-250px , -20px);
+}
+
+label.star:before{
+	content: '\2606';
+}
+
+input.star:checked ~ label.star:before{
+	content: '\2605';
+	color: green;
+}
+
+input.star5:checked ~ label.star:before{
+	color: red;
+}
+
+input.star1:checked ~ label.star:before{
+	color: yellow;
+}

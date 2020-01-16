@@ -1,0 +1,47 @@
+.login-form, .signup-form{
+    margin-top: 20px;
+    border : 2px solid rgba(194,226,185,1);
+}
+.left-content,
+.right-content
+{
+  padding:0 20px;
+}
+.signup-form .right-content{
+    padding-right:70px;
+}
+.login-form .right-content{
+    padding-left: 83px;
+}
+.login-form .left-content{
+    padding-top: 30px;
+    padding-left:80px;
+}
+
+.heading
+{
+  text-align: center;
+  color: #0a24a6 ;
+}
+
+.login-form .heading
+{
+  margin-bottom: 12%;
+}
+
+.signup-form .heading
+{
+  margin-bottom: 10%;
+}
+
+.sub-btn
+{
+  margin: 0 auto;
+  display: block;
+}
+
+.center-div
+{
+  width: 45%;
+  margin: auto;
+}

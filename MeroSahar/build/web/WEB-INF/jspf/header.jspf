@@ -1,0 +1,55 @@
+<%@page session="true"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100i,400|Cormorant+Garamond&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/gallery.css">
+<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>Mero Sahar | Idea to enhance our tourism.</title>
+</head>
+<body>
+	<div class="main-container">
+		<section class="head-container">
+			<div class="actual clearfix">
+                            <div class="logo"><a href = "home">Mero Sahar</a></div>
+                                                 
+			<div  class="menu-items">
+			<header>
+				<nav>
+					<a href="./about_us.jsp">About</a>
+					<a href="./article.jsp">Article</a>
+                                        <c:if test="${!empty sessionScope.loggedInUser}">
+                                            <a href="add_artical">Add Article</a>
+                                        </c:if>  
+                                            <c:if test="${!empty sessionScope.loggedInUser}">
+                                            <a href="myartical">My Article</a>
+                                        </c:if>  
+					<a href="#">Travel</a>					
+                                        <a href="#">Hotel</a>
+					<a href="./gallery.jsp">Gallery</a>
+                                       
+                                        <c:if test="${!empty sessionScope.loggedInUser}">
+                                            <a href="./logout.jsp">LogOut</a>
+                                        </c:if>  
+                                        <c:if test="${empty sessionScope.loggedInUser}">
+                                           <a href="./login.jsp">Login</a> 
+                                        </c:if>
+					<c:if test="${empty sessionScope.loggedInUser}">
+					<a href="signup">Register</a>
+                                        </c:if>
+					<a href=""><i class="fa fa-search"></i></a>
+				</nav>
+			</header>
+                    </div>
+		</div>
+            </section>

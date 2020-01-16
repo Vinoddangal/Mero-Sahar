@@ -1,0 +1,174 @@
+            <section class="footer-container">
+	        <div class="footer-content actual clearfix">
+	            <div class="about-us-file">
+	                <div class="logo-view">
+	                    <a href="#">Mero Sahar</a>
+	                    <p>Mero sahar is a tourism website that helps many people to have the travelling at 2020. It is mainly designed to promote the tourism year 2020. The images and videos that are included in this wensite is not owned by ourselves. Thanks for Visiting us.</p>
+	                </div>  
+	                <h3 class="follower-count">15K followers</h3>
+	                <div class="line-rectangle our-blog-line-separator"></div>
+	                <div class="social-link-collection clearfix">
+	                    <p>Follow us:</p>
+	                    <ul>
+	                        <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+	                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+	                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+	                        <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+	                        <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+	                    </ul>
+	                </div>
+	                <div class="newsletter">
+	                    <form action="index.html" method="POST">
+	                    <input type="text" placeholder="Your Email...">
+	                    <input type="submit" value="SUBSCRIBE">
+	                    </form>
+	                </div>
+	            </div>
+	            <div class="blogs-files">
+	                <h3>BLOG</h3>
+	                <ul>
+	                    <li class="blogs-file clearfix">
+	                        <div class="blog-img"><img src="images/photo-2.jpg" alt="photo-2.jpg"></div>
+	                            <div class="right-blog-title"><h5>Going for school above the mountain</h5>
+	                            <span class="date-pos robotto-text">Jan 9 2019</span>
+	                        </div>
+	                    </li>
+	                    <li class="blogs-file clearfix">
+	                        <div class="blog-img"><img src="images/photo-3.jpg" alt="photo-3.jpg"></div>
+	                        
+	                            <div class="right-blog-title"><h5>Hiking to see the heaven</h5>
+	                            <span class="date-post robotto-text">Jan 9 2019</span>
+	                        </div>
+	                    </li>
+	                    <li class="blogs-file clearfix">
+	                        <div class="blog-img"><img src="images/photo-4.jpg" alt="photo-4.jpg"></div>
+	                            <div class="right-blog-title"><h5>Paradise to see this beauty or nature</h5>
+	                            <span class="date-post robotto-text">Jan 9 2019</span>
+	                        </div>
+	                    </li>
+	                </ul>
+	            </div>
+	            <div class="instagram-file">
+	                <h3>INSTAGRAM</h3>
+	                <ul class="insta-image-gallery clearfix">
+	                    <li><a href="./gallery.jsp">
+	                        <div class="insta-img"><img src="images/i-1.png" alt="i-1.png"></div>
+	                        </a>
+	                    </li>
+	                    <li><a href="./gallery.jsp">
+	                        <div class="insta-img"><img src="images/i-2.png" alt="i-1.png"></div>
+	                        </a>
+	                    </li>
+	                    <li><a href="./gallery.jsp">
+	                        <div class="insta-img"><img src="images/i-3.png" alt="i-1.png"></div>
+	                        </a>
+	                    </li>
+	                    <li><a href="./gallery.jsp">
+	                        <div class="insta-img"><img src="images/i-4.png" alt="i-1.png"></div>
+	                        </a>
+	                    </li>
+	                    <li><a href="./gallery.jsp">
+	                        <div class="insta-img"><img src="images/i-5.png" alt="i-1.png"></div>
+	                        </a>
+	                    </li>
+	                    <li><a href="./gallery.jsp">
+	                        <div class="insta-img"><img src="images/i-6.png" alt="i-1.png"></div>
+	                        </a>
+	                    </li>
+	                    <li><a href="./gallery.jsp">
+	                        <div class="insta-img"><img src="images/i-7.png" alt="i-1.png"></div>
+	                        </a>
+	                    </li>
+	                    <li><a href="./gallery.jsp">
+	                        <div class="insta-img"><img src="images/i-8.png" alt="i-1.png"></div>
+	                        </a>
+	                    </li>
+	                    <li><a href="./gallery.jsp">
+	                        <div class="insta-img"><img src="images/i-9.png" alt="i-1.png"></div>
+	                        </a>
+	                    </li>
+	                </ul>
+	                <span class="viewmore-post robotto-text"><a href="./gallery.jsp">View more photos</a></span>
+
+	            </div>
+	        </div>
+	        <div class="line-rectangle our-blog-line-separator-y "></div>
+	        <div class="copyright-content actual robotto-text">
+	            <p>© 2016 Mero Sahar Designed by<span><a href="#"> wemakers </a></span></p>
+	        </div>
+	    </section>
+	</div>
+        <script type="text/javascript">
+	$(document).ready(function(){
+		var window_width    = $(window).width();
+		var main_width      = $(".main_container").width();
+		var long_container  = $(".long_container");
+		var item            = $(".item");
+		var slide_number    = 0;
+
+
+		long_container.css("width" , main_width * 5.05);
+		item.css("width" , long_container.width() / 14);
+
+		//total slide to be displayed with next button
+		$(".see_next").click(function(){
+			if(slide_number < 11){
+				slide_number++
+			
+				//if no more images then next button is hidden			
+				if(slide_number == 11){
+					$(".see_next").animate({opacity: 0});
+				} else {
+					$(".see_next").animate({opacity: 1});
+				}
+
+				//first previous button is hidden 
+				if(slide_number == 0){
+					$(".see_previous").animate({opacity: 0});
+				} else {
+					$(".see_previous").animate({opacity: 1});
+				}
+
+				var item_width   = $(".item").width();
+				var pixels_moved = item_width * slide_number;
+
+				long_container.animate({
+					marginLeft: -pixels_moved
+				});
+			}
+		});
+
+
+
+		//total slide to be displayed with previous button
+		$(".see_previous").click(function(){
+			if(slide_number > 0){
+				slide_number--
+			
+				if(slide_number == 0){
+					$(".see_previous").animate({opacity: 0});
+				} else {
+					$(".see_previous").animate({opacity: 1});
+				}
+
+				if(slide_number == 11){
+					$(".see_next").animate({opacity: 0});
+				} else {
+					$(".see_next").animate({opacity: 1});
+				}
+
+				var item_width   = $(".item").width();
+				var pixels_moved = item_width * slide_number;
+
+				long_container.animate({
+					marginLeft: -pixels_moved
+				});
+			}
+		});
+	});
+
+	</script>
+</body>
+</html>

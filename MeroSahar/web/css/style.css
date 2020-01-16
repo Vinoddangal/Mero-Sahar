@@ -1,0 +1,697 @@
+	*{
+		margin: 0;
+		padding:0;
+		box-sizing: border-box;
+	}
+	body{
+		font-family: 'Raleway', sans-serif;
+	}
+	a{
+		text-decoration: none;
+		color: #000;
+	}
+	img{
+		width:100%;
+		height:auto;
+	}
+	section{
+		margin-bottom:60px;
+	}
+	li{
+		list-style: none;
+	}
+	a{
+            color:#000;
+            text-decoration: none;
+	}
+        a:hover{
+            color:#000;
+            text-decoration: none;
+	}
+	.clearfix::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+	.robotto-text{
+		font-family:"Roboto", sans-serif;
+		font-size:12px;
+	}
+	.main-container{
+		width:100%;
+		min-width: 1170px;
+	}
+	.actual{
+		width: 1170px;
+		margin:0 auto;
+	}
+	.head-container{
+		position:fixed;
+		color:#fff;
+		background: #221177;
+		width:100%;
+		z-index:50;
+	}
+	.logo{
+		float: left;
+		padding: 25px;
+		padding-left: 20px;
+	}
+        .logo a{
+            color:#fff;
+        }
+	.menu-items{
+		float:right;
+		display: block;
+		padding-top:20px;
+	}
+	nav a{
+		font-size: 13px; 
+		text-transform: uppercase;
+		color:#fff;
+		margin:0 20px;
+		padding-bottom: 10px;box-sizing: border-box;
+		text-decoration-style: none;
+	}
+	nav a:hover{
+		color: #3AC0C7;
+	    transition: color 0.4s ease 0s;
+	    border-bottom: 1px solid #fff;
+	}
+	.empty-section{
+		padding-bottom:69px; 
+	}
+	.body-image-container{
+		background: url(../images/photo.jpg) no-repeat center;
+		background-size:cover;
+	}
+	.content-body{
+		padding: 160px;
+		text-align: center;
+	}
+	.content-body h1{
+		font-family: "Montserrat", sans-serif;
+		color: #fff;
+		font-size: 72px;
+		font-weight: bolder;
+	}
+	.content-body p{
+		font-size:14px;
+		color: #fff;
+	}
+	.search-container{
+		text-align:center;
+	}
+	.search-content span{
+		font-family: "Montserrat", sans-serif;
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 60px;
+		text-transform: uppercase;
+	}
+	.search-content input[type=text]{
+		width: 350px;
+		height: 50px;
+		padding: 0 10px;
+		border-radius: 10px;
+		border: none;
+		font-family: 'Raleway', sans-serif;
+		margin-top:20px;
+		box-shadow: 1px 8px 33px -9px rgba(0,0,0,0.75);
+	}	
+	.search-content input[type=submit]{
+		background:#221177;
+		padding:18px 20px;
+		color:#fff;
+		box-shadow: 1px 8px 33px -9px rgba(0,0,0,0.75);
+		border:none;
+		border-radius: 10px;
+	}
+	.sponsors-container{
+		background:#F4F4F4;
+		/*padding:30px 100px;*/
+	}
+	.sponsors-title{
+		float: left;
+		padding-top:40px;
+		padding-left:20px;
+	}
+	.vertical-bar{
+		height: 100px;
+		width: 3px;
+		background-color: #3AC0C7;
+		float: left;
+		margin:0px 30px;
+	}
+	.sponsors-list{
+		padding-top:10px;
+	}
+	.sponsors-list-dep{
+		float: left;
+		width: 100px;
+		height: 100px;
+		margin:0 10px;
+	}
+	.video-container{
+		background:#000;
+	}
+	.video-content{
+		margin:0 auto;
+		width:720px;
+	}
+	.top-views-container{
+		background: #F5F5F5;
+	}
+	.top-views-container-header {
+		background: #221177;
+	}
+	.top-views-container-header h1{
+		font-family:"Montserrat", sans-serif;
+		padding:20px;
+		font-weight: bolder;
+		color:#fff;
+		font-size:30px;
+		float:left;
+	}
+	.top-views-container-header .go-to-page{
+		float:right;
+		padding-top:30px;
+		padding-right:10px;
+	}
+	.top-views-container-header .go-to-page a{
+		background-color: #fff;
+		color:#221177; 
+		padding:10px;
+		border-radius: 10px;
+	}
+	.top-views-container-header .go-to-page a:hover{
+		background-color: #fff;
+		color:#221177; 
+		padding:15px;
+	}
+	.top-ten-lists ul li{
+		display: block;
+		float:left;
+		margin:10px;
+	}	
+	.list-article{
+		padding:20px 10px;
+		width:272px;
+                height:310px;
+                background: #fff;
+		box-shadow: 0px 24px 54px -27px rgba(0,0,0,0.75);
+		border-radius: 10px;
+	}
+	.list-article h2{
+		font-size: 14px;
+		background: #221177;
+		padding: 10px 5px;
+		color:#fff;
+	}
+	.article-container{
+		padding-top:30px;
+		text-align: center;
+	}
+	.article-details{
+		margin-top: 30px;
+		border: 0.5px solid lightgray;
+		box-shadow: 1px 8px 33px -9px rgba(0,0,0,0.75);
+	}
+	.article-details:hover h1{
+		color: #3AC0C7;
+	    transition: color 0.4s ease 0s;
+	}
+	.article-content-writer{
+		margin:20px 0;
+		margin-left:84px;
+		color: #fff;
+	}
+	.writer-image{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background: url(../images/admin-icon.png) no-repeat center;
+		background-size: cover;
+		float: left;	
+	}
+	.writer-name, .writer-date{
+		padding-top: 10px;
+		margin-left: 70px;
+		text-align: initial;
+		color:#000;
+		font-size:12px;
+	}
+	.article-header{
+		display: block;
+		text-align: initial;
+		line-height: 1em;
+	}
+	.article-header h1{
+		margin: 20px 0;
+		margin-left: 88px;
+		font-family: 'Cormorant Garamond', serif;
+		font-size: 40px;
+	}
+	.article-description{
+		clear: both;
+		text-align: justify;
+		margin:0 70px;
+		color: #000;
+		padding: 10px 20px;
+	}
+	.article-views-comment-like{
+		margin: 20px 0;
+		text-align: initial;
+		margin-left: 85px;
+		margin-top: 10px;
+		display: block;
+		font-size: 10px;
+		font-family: 'Work Sans', sans-serif;
+	}
+	.article-details .see-more{
+		float: right;
+		margin-right:60px;
+		text-decoration: underline;
+	}
+	.multiple-contents-container{
+		margin-bottom:20px;
+	}
+	.small-container{
+		width:350px;
+		text-align: initial;
+		float:left;
+		margin:20px;
+		box-shadow: 1px 8px 33px -9px rgba(0,0,0,0.75);
+	}
+	.small-container .article-content-writer{
+		margin-top:10px;
+		margin-left:14px;
+	}
+	.small-container .article-header h1{
+		margin:10px 30px;
+		font-size: 16px;
+	}
+	.small-container .article-description{
+		margin: 0 10px;
+	}
+	.small-container .article-views-comment-like{
+		margin: 20px 0;
+		text-align: initial;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.small-container .see-more{
+		float:right;
+		margin-right:20px;
+		text-decoration: underline;
+	}
+	.count-views{
+		float: left;
+		margin-right: 30px;
+	}
+	.like-counts i{
+		color:red;
+		padding-right: 10px;
+		padding-left:0;
+	}
+	.actual .go-to-page{
+		float: right;
+		text-decoration: underline;
+	}
+	.gallery-container{
+		text-align:center;
+	}
+	.gallery-images{
+		width:390px;
+		float:left;
+	}
+	.gallery-image-file{
+		float: left;
+		width: 195px;
+		padding:10px;
+	}
+	.our-blog-container{
+	    display:block;
+	    text-align:center;
+	}
+	.blog-image{
+	    display:block;
+	}
+	.blog-list{
+	    width:360px;
+            height:780px;
+	    text-align:initial;
+	    float:left;
+	    margin:15px;
+            box-shadow: 1px 8px 33px -9px rgba(0,0,0,0.75);
+	    position:relative;
+	    padding-bottom: 20px;
+
+	}
+	.blog-info{
+		padding:10px;
+	}
+	.blog-info h1{
+	    font-size:14px;
+	    text-transform:uppercase;   
+	    line-height: 40px;
+	}
+	.blog-info p{
+	    font-size:15px;
+	    font-weight:normal;
+	    color:gray;
+	    padding-left:10px;
+	}
+	.our-blog-line-separator{
+	    width:300px;
+	    height:1px;
+	    background:lightgray;
+	    margin:20px;
+	}
+	.blog-list a{
+	    color:gray;
+	}
+	.blog-list .like-views a img, .blog-list .like-views a img{
+	    width:25px;
+	    height:25px;
+	    margin-right:10px;
+	}
+	.blog-list .like-views .view-num, .blog-list .like-views .comment-num{
+	    font-size: 8px;
+	    font-weight:lighter;
+	    padding-left: 6px; 
+	}
+	.date-view{
+	    position:absolute;
+	    width:60px;
+	    height:70px;
+	    background:#221177;
+	    top:450px;
+	    left:-10px;
+	    z-index:20;
+	    text-align:center;
+	}
+	.date-view span{
+	    font-size: 30px;
+	    font-weight:bolder;
+	    color:#fff;
+	}
+	.date-view p{
+	    font-size: 15px;
+	    color:#fff;
+	}
+	.like-views{
+		margin-left:20px;
+	}
+	.like-views a{
+		float: left;
+	}
+	.footer-container{
+	    background:#F8F8F8;
+	    margin-bottom:0;
+	}
+	.footer-content{
+	    padding-top:60px;
+	}
+	.about-us-file{
+	    width:480px;
+	    float:left;
+	}
+	.logo-view a{
+	    font-size:46px;
+	    font-weight:bolder;
+	    color:darkgray;
+	}
+	.logo-view p{
+	    float:left;
+	    padding:40px 0;
+	}
+	.social-link-collection{
+	    padding:10px 0;
+	}
+	.social-link-collection p{
+	    float:left;
+	    padding-right:10px;
+	}
+	.social-link-collection ul li{
+	    float:left;
+	}
+	.social-link-collection ul li a{
+	    padding:10px;
+	    color:#221177;
+	}
+	.social-link-collection ul li a:hover{
+	    color:#fff;
+	    background:#221177
+	}
+	.newsletter{
+	    padding-top:20px;
+	}
+	.newsletter input[type=text]{
+	    height:30px;
+	    width:230px;
+	    padding:0 10px;
+	    font-style:italic;
+	}
+	.newsletter input[type=submit]{
+	    height:30px;
+	    padding:0 30px;
+	    text-transform:uppercase;
+	    background:#221177;
+	    color:#fff;
+	    font-weight:bold;
+	    border:none;
+	    font-size:14px;
+	}
+	.blogs-files{
+	    float:left;
+	    width:380px;
+	    margin-bottom:10px;
+	    padding-left:30px;
+	}
+	.blogs-file li h5{
+	    text-transform:uppercase;
+	}
+	.blogs-files ul{
+	    padding:40px 0;
+	}
+	.blog-img{
+	    width:100px;
+	    height:50px;
+	    float:left;
+	    margin-bottom: 20px;
+	    margin-right:20px;
+	}
+	.right-blog-title{
+	    float:left;
+	    width:200px;
+	}
+
+	.blogs-file li .date-post, .viewmore-post{
+	    font-style:italic;
+	    color:#F5F5F5;
+	}
+	.instagram-file{
+	    width:275px;
+	    float:left;  
+	}
+	.insta-image-gallery{
+	    padding:40px 0;
+	}
+	.insta-img{
+	    width:88px;
+	    height:88px;
+	    float:left;
+	}
+	.viewmore-post{
+	    color:#000;
+	}
+	.our-blog-line-separator-y{
+	    height:1px;
+	    background:lightgray;
+	}
+	.copyright-content{
+	    text-align:center;
+	    padding:10px 0;
+	}
+	.copyright-content p span a{
+	    color:#f38181;
+	}
+
+	/*aboutus.html css file*/
+	.about-us-container {
+		text-align: center;
+	}
+	.about-us-container .image-view{
+		background:url("../images/Kathmandu-Pokhara-Tour3.jpg") no-repeat center;
+		background-size: cover;
+	}
+	.services-container{
+    text-align:center;
+	}
+	.services-content h1{
+	    font-weight:bolder;
+	    font-size:30px;
+	}
+	.services-content span{
+	    font-size: 24px;
+	}
+	.services-line{
+	    background: #f38181;
+	}
+	.services-content p{
+	    color:gray;
+	}
+	.services-image{
+	    display:inline-block;
+	}
+	.service-list{
+	    float:left;
+	    margin:25px;
+	    width:28.5%;
+	}
+	.service-icon{
+	    width:32px;
+	    height:32px;
+	    float:left;
+	}
+	.service-content{
+	    float:right;
+	    width:86%;
+	}
+	.service-heading{
+	    font-size:14px;
+	    padding-bottom:20px;
+	    text-align:initial;
+	    font-weight:normal;
+	    text-transform:uppercase;
+	    font-weight:bold;
+	    font-family: 'Montserrat', sans-serif;
+	}
+	.service-content p{
+	    font-size:15px;
+	    text-align: initial;
+	}
+	.services-line-l{
+	    width:100%;
+	    background:lightgray;
+	    height:1px;
+	}
+	.article-content-writer h1{
+		color:#000;
+	    padding-right: 250px;
+	}
+	.right-writer{
+		float:left;
+	}
+	.single h1{
+		font-weight: bolder;
+		font-size:32px;
+	}
+	.single:hover h1{
+		color: #000;
+	}	
+	.comment-me{
+		margin-left:20px;
+	}
+	.comment-wall{
+		padding-top:20px;
+		padding-left:60px;
+	}
+	.comment-wall h2{
+		text-align: initial;
+		margin-bottom: 10px;
+	}
+	.comment-file{
+	    margin-bottom:20px;
+	    padding-left:30px;
+	}
+	.comment-file li h5{
+	    text-transform:uppercase;
+	}
+	.comment-files ul{
+	    padding:40px 0;
+	}
+	.comment-img{
+	    width:60px;
+	    height: 60px;
+	    background: url(../images/admin-icon.png) no-repeat center;
+	    background-size: cover;
+	    border-radius:50%;
+	    float:left;
+	    margin-right:10px;
+	}
+	.right-comment-title{
+	    float:left;
+	    text-align: initial;
+	}
+	.right-comment-title h1{
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.comments-file li .date-post{
+	    font-style:italic;
+	    color:#F5F5F5;
+	}   
+	.like-views{
+		margin-bottom: 10px;
+	}
+	.single-like-counts i{
+		padding:0 5px;
+	}
+	.comment-write-btn{
+		margin-left:555px;
+	}
+	.comment-me textarea{
+		padding:10px;
+	}
+	.comment-write-btn input[type=submit]{
+		padding:5px 20px;
+		background-color: #221177;
+		color:#fff;
+		border:none;
+		box-shadow: 1px 8px 33px -9px rgba(0,0,0,0.75);
+		cursor: pointer;
+	}
+	.related-post{
+		font-family: "Montserrat", sans-serif;
+		color: #fff;
+		background:#221177;
+		padding:10px;
+	}
+        .hotel-form
+        {
+            margin: auto;
+            margin-top: 50px;
+            width: 80%;
+        }
+        
+        .heding h2
+        {
+            
+            text-align: center;
+            
+        }
+        
+        .hotel-form .sub-btn
+        {
+            float: right;
+            width: 30%;
+        }
+        
+        .hotel-form .right-conten
+        {
+                margin-top: 30px;
+                float: right;
+                position: inline-block;
+        }   
+
+        .hotel-form .left-conten
+        {
+                position: fixed;
+        }
+        
+        .myartical{
+            margin: auto;
+            margin-top: 100px;
+        }
